@@ -20,5 +20,19 @@ export class AppComponent {
     this.person.name = name;
     this.person.age = age;
   }*/
-  name: 'Pablo';
+  author = 'Pablo Pazmiño';
+  title  = 'My first App';
+  count = 0;
+  imgSource = './../favicon.ico';
+  enabled = true;
+  changeVal() {
+    console.log('change');
+    console.log(this.enabled);
+    if (this.enabled === true) {
+      this.enabled = false;
+    } else {
+      this.enabled = true;
+    }
+  };
 }
+
