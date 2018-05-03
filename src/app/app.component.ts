@@ -25,6 +25,7 @@ export class AppComponent {
   count = 0;
   imgSource = './../favicon.ico';
   enabled = true;
+
   changeVal() {
     console.log('change');
     console.log(this.enabled);
